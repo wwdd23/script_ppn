@@ -1,0 +1,15 @@
+
+
+
+
+Time.at ((7080000 -  7029924) * 15.3 + Time.now.to_i)
+
+
+
+#https://www.etherchain.org/api/miningEstimator
+
+
+web3 = Web3::Eth::Rpc.new host: '47.75.75.78',
+  port: 8545,
+  connect_options: { use_ssl: true, read_timeout: 120 }
+
